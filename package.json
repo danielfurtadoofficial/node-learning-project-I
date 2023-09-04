@@ -1,0 +1,32 @@
+{
+  "name": "node-learning-project-i",
+  "version": "1.0.0",
+  "description": "Node Course",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielfurtadoofficial/node-learning-project-I.git"
+  },
+  "keywords": [
+    "node",
+    "course",
+    "learning"
+  ],
+  "author": "Daniel Furtado",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielfurtadoofficial/node-learning-project-I/issues"
+  },
+  "homepage": "https://github.com/danielfurtadoofficial/node-learning-project-I#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0"
+  }
+}
