@@ -2,7 +2,6 @@
 //const person = new Person("Daniel Furtado");
 const dotenv = require("dotenv");
 const DBConnection = require("./src/database/connect.js");
-
 dotenv.config();
 
 
@@ -11,4 +10,4 @@ DBConnection();
 //require("./modules/path.js");
 //require("./modules/fs.js");
 //require("./modules/http.js");
-//require("./modules/express.js");
+require("./modules/express.js");
